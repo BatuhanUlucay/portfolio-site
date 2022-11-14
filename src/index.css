@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1e1e1e;
+  font-family: monospace;
 }
 
 /* Header */
@@ -64,6 +65,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.tab:hover {
+  background-color: #1e1e1e;
+}
 
 .tabs_container {
   display: flex;
@@ -81,4 +85,19 @@ body {
   .explorer {
     display: none;
   }
+}
+
+.files {
+margin-top: 3rem;
+}
+
+.file {
+  color: white;
+  height: 2rem;
+  padding-left: 3rem;
+  padding-top: 0.75rem;
+}
+
+.file:hover{
+  background-color: #2a2d2e;
 }
