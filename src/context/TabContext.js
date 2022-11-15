@@ -1,6 +1,6 @@
 import { createContext, useState } from "react";
 
-export const tabs = ["home.jsx", "projects.jsx", "resume.jsx", "contact.jsx"];
+export const tabs = ["home", "projects", "resume", "contact"];
 
 const TabContext = createContext();
 

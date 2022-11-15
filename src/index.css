@@ -50,6 +50,7 @@ body {
 /* Tabs */
 
 .tabs {
+  padding-left: 20rem;
   background-color: #252526;
   height: 3rem;
   display: flex;
@@ -75,14 +76,10 @@ body {
   background-color: #1e1e1e;
 }
 
-.tabs_container {
-  display: flex;
-}
-
 /* Explorer */
 
 .explorer {
-  height: 100vh;
+  height: 95vh;
   width: 20rem;
   background-color: #252526;
 }
@@ -104,10 +101,16 @@ body {
   padding-top: 0.75rem;
 }
 
-.file.active{
+.file.active {
   background-color: #2a2d2e;
 }
 
 .file:hover {
   background-color: #2a2d2e;
+}
+
+/* Home */
+
+.home {
+  color: white;
 }

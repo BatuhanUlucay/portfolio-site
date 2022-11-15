@@ -8,6 +8,7 @@ function Tabs() {
     <div className="tabs">
       {tabs.map((tab) => (
         <div
+        key={tab}
           className={`tab ${currentTab === tab ? "active" : ""}`}
           onClick={() => {
             setCurrentTab(tab);
