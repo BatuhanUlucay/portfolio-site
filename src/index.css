@@ -9,6 +9,7 @@ body {
 
 .header {
   background-color: #3c3b37;
+  width: 100vw;
   height: 3rem;
   display: flex;
   justify-content: center;
@@ -55,7 +56,6 @@ body {
   width: 100%;
 }
 
-
 .tab {
   background-color: #2d2d2d;
   color: #dadce0;
@@ -64,7 +64,13 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  border-right: black solid 1px;
 }
+
+.tab.active {
+  background-color: #1e1e1e;
+}
+
 .tab:hover {
   background-color: #1e1e1e;
 }
@@ -88,7 +94,7 @@ body {
 }
 
 .files {
-margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .file {
@@ -98,6 +104,10 @@ margin-top: 3rem;
   padding-top: 0.75rem;
 }
 
-.file:hover{
+.file.active{
+  background-color: #2a2d2e;
+}
+
+.file:hover {
   background-color: #2a2d2e;
 }

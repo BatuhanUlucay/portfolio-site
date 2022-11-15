@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
+import TabContext, { tabs } from "../../context/TabContext";
 
 function Tabs() {
+  const { currentTab, setCurrentTab } = useContext(TabContext);
+
   return (
     <div className="tabs">
-      <div className="tab">home.jsx</div>
-      <div className="tab">projects.jsx</div>
-      <div className="tab">resume.jsx</div>
-      <div className="tab">contact.jsx</div>
+      {tabs.map((tab) => (
+        <div
+          className={`tab ${currentTab === tab ? "active" : ""}`}
+          onClick={() => {
+            setCurrentTab(tab);
+          }}
+        >
+          {tab}
+        </div>
+      ))}
     </div>
   );
 }

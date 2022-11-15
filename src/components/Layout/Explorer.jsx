@@ -1,15 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
+import TabContext, { tabs } from "../../context/TabContext";
 
 function Explorer() {
+  const { currentTab, setCurrentTab } = useContext(TabContext);
+
   return (
     <div className="explorer">
       <p style={{ color: "white", marginLeft: "1.5rem" }}>EXPLORER</p>
       <h4 style={{ color: "white", marginLeft: "1.5rem" }}>PORTFOLIO</h4>
       <div className="files">
-        <div className="file">home.jsx</div>
-        <div className="file">projects.jsx</div>
-        <div className="file">resume.jsx</div>
-        <div className="file">contact.jsx</div>
+        {tabs.map((tab) => (
+          <div
+            className={`file ${currentTab === tab ? "active" : ""}`}
+            onClick={() => {
+              setCurrentTab(tab);
+            }}
+          >
+            {tab}
+          </div>
+        ))}
       </div>
     </div>
   );
