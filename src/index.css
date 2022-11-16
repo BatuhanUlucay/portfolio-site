@@ -57,6 +57,12 @@ body {
   width: 100%;
 }
 
+@media only screen and (max-width: 780px) {
+  .tabs {
+    padding-left: 0;
+  }
+}
+
 .tab {
   background-color: #2d2d2d;
   color: #dadce0;
@@ -112,5 +118,31 @@ body {
 /* Home */
 
 .home {
+  width: 100%;
+  text-align: center;
   color: white;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  margin-top: 7rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.about-me {
+  margin-top: 5rem;
+  padding-left: 4rem;
+  font-size: x-large;
+  text-align: left;
+  line-height: 3rem;
+}
+
+.about-me p {
+  display: inline;
 }
