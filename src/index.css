@@ -136,10 +136,8 @@ body {
 }
 
 .about-me {
-  margin-top: 5rem;
-  padding-left: 4rem;
   font-size: x-large;
-  text-align: left;
+  text-align: center;
   line-height: 3rem;
 }
 
