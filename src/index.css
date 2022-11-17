@@ -144,3 +144,30 @@ body {
 .about-me p {
   display: inline;
 }
+
+/* Projects */
+
+.projects {
+  margin: auto auto;
+}
+
+.projects-grid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.project-card {
+  height: 20rem;
+  width: 30rem;
+  border: white 1px solid;
+  color: white;
+  text-align: center;
+}
+
+.project-card img {
+  margin-top: 1rem;
+  width: 90%;
+}
