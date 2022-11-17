@@ -9,7 +9,6 @@ body {
 
 .header {
   background-color: #3c3b37;
-  width: 100vw;
   height: 3rem;
   display: flex;
   justify-content: center;
@@ -54,10 +53,9 @@ body {
   background-color: #252526;
   height: 3rem;
   display: flex;
-  width: 100%;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1300px) {
   .tabs {
     padding-left: 0;
   }
@@ -72,6 +70,13 @@ body {
   align-items: center;
   justify-content: center;
   border-right: black solid 1px;
+}
+
+@media only screen and (max-width: 780px) {
+  .tab {
+    width: 6rem;
+    font-size: smaller;
+  }
 }
 
 .tab.active {
@@ -145,6 +150,15 @@ body {
   display: inline;
 }
 
+@media only screen and (max-width: 1300px) {
+  .about-me p {
+    font-size: smaller;
+  }
+  .about-me h2 {
+    font-size: smaller;
+  }
+}
+
 /* Projects */
 
 .projects {
@@ -159,6 +173,12 @@ body {
   grid-auto-rows: minmax(100px, auto);
 }
 
+@media only screen and (max-width: 1300px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .project-card {
   height: 30rem;
   width: 25rem;
@@ -167,12 +187,18 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 780px) {
+  .project-card {
+    width: 20rem;
+  }
+}
+
 .project-card img {
   margin-top: 1rem;
   width: 90%;
   height: 60%;
 }
 
-.links a{
-margin: 10px;
+.links a {
+  margin: 10px;
 }
