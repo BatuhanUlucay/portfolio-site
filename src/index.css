@@ -46,6 +46,21 @@ body {
   margin-top: 1rem;
 }
 
+/* Footer */
+
+.footer {
+  background-color: #3c3b37;
+  color: white;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  margin-left: 1rem;
+}
+
 /* Tabs */
 
 .tabs {
@@ -123,7 +138,8 @@ body {
 /* Home */
 
 .home {
-  width: 100%;
+  margin: auto;
+  margin-top: 1rem;
   text-align: center;
   color: white;
 }

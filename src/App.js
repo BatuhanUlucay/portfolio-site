@@ -7,6 +7,7 @@ import Home from "./components/Contents/Home";
 import Projects from "./components/Contents/Projects";
 import Resume from "./components/Contents/Resume";
 import Contact from "./components/Contents/Contact";
+import Footer from "./components/Layout/Footer";
 
 function App() {
   const { currentTab } = useContext(TabContext);
@@ -41,6 +42,7 @@ function App() {
         <Explorer />
         {page}
       </div>
+      <Footer />
     </>
   );
 }
