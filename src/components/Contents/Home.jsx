@@ -18,9 +18,9 @@ function Home() {
           <p style={{ color: "#C96D3D" }}></p>
           <TypeAnimation
       sequence={[
-        'Software Engineer', 
+        '"Software Engineer"', 
         1000, 
-        'Frontend Developer', 
+        '"Frontend Developer"', 
         1000, 
       ]}
       wrapper="div"
