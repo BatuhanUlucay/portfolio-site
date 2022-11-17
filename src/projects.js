@@ -1,6 +1,6 @@
 import f1 from "./assets/projects/f1.png";
 import poke from "./assets/projects/poke.png"
-import todo from "./assets/projects/todo2.png"
+import todo from "./assets/projects/todo.png"
 import finder from "./assets/projects/gh.png"
 
 export const projects = [
