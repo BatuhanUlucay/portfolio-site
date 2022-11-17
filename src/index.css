@@ -90,7 +90,7 @@ body {
   background-color: #252526;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1300px) {
   .explorer {
     display: none;
   }
@@ -160,8 +160,8 @@ body {
 }
 
 .project-card {
-  height: 20rem;
-  width: 30rem;
+  height: 30rem;
+  width: 25rem;
   border: white 1px solid;
   color: white;
   text-align: center;
@@ -170,4 +170,9 @@ body {
 .project-card img {
   margin-top: 1rem;
   width: 90%;
+  height: 60%;
+}
+
+.links a{
+margin: 10px;
 }

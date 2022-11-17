@@ -1,6 +1,7 @@
 import f1 from "./assets/projects/f1.png";
 import poke from "./assets/projects/poke.png"
-import todo from "./assets/projects/todo.png"
+import todo from "./assets/projects/todo2.png"
+import finder from "./assets/projects/gh.png"
 
 export const projects = [
   {
@@ -19,7 +20,7 @@ export const projects = [
   },
   {
     name: "Github Finder",
-    src: f1,
+    src: finder,
     description: "Simple ui for searching github users, viewing their repos and some other details.",
     gh_link: "https://github.com/BatuhanUlucay/github-finder",
     live_link: "",
