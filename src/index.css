@@ -105,7 +105,7 @@ body {
 /* Explorer */
 
 .explorer {
-  height: 95vh;
+  height: 100vmax;
   width: 20rem;
   background-color: #252526;
 }
@@ -139,7 +139,7 @@ body {
 
 .home {
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 0;
   text-align: center;
   color: white;
 }
@@ -150,7 +150,7 @@ body {
 }
 
 .photo {
-  margin-top: 7rem;
+  margin-top: 4rem;
   height: 200px;
   width: 200px;
   border-radius: 100%;
@@ -178,11 +178,12 @@ body {
 /* Projects */
 
 .projects {
-  margin: auto auto;
+  margin: auto;
+  margin-top: 6rem;
 }
 
 .projects-grid {
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
