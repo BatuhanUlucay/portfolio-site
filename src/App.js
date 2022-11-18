@@ -17,16 +17,16 @@ function App() {
     console.log(currentTab);
 
     switch (currentTab) {
-      case "home":
+      case "home.js":
         setPage(<Home />);
         break;
-      case "projects":
+      case "projects.json":
         setPage(<Projects />);
         break;
-      case "resume":
+      case "resume.pdf":
         setPage(<Resume />);
         break;
-      case "contact":
+      case "contact.css":
         setPage(<Contact />);
         break;
       default:
