@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import { InlineWidget } from "react-calendly";
 
 function Contact() {
   return (
@@ -13,7 +14,6 @@ function Contact() {
         <AiFillLinkedin
           size={"40px"}
           color="#FFFFFF"
-          // style={{ marginLeft: "2rem" }}
         />
         <h2 style={{ color: "#D7BA7D" }}>{"}"}</h2>
       </div>
@@ -23,11 +23,12 @@ function Contact() {
         <AiFillGithub
           size={"40px"}
           color="#FFFFFF"
-          // style={{ marginLeft: "2rem" }}
         />
         <h2 style={{ color: "#D7BA7D" }}>{"}"}</h2>
       </div>
-      <div className="calendly"></div>
+      <div className="calendly">
+      <InlineWidget url="https://calendly.com/batuhanulucay/30min" />
+      </div>
     </div>
   );
 }
