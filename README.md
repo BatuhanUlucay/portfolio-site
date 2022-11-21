@@ -1,1 +1,1 @@
-Portfolio site of mine. It can be accessed by clicking [here](batuhanulucay.com)
+Portfolio site of mine. It can be accessed by clicking [here](https://www.batuhanulucay.com)
