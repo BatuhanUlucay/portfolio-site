@@ -14,8 +14,6 @@ function App() {
   const [page, setPage] = useState(<Home />);
 
   useEffect(() => {
-    console.log(currentTab);
-
     switch (currentTab) {
       case "home.js":
         setPage(<Home />);
