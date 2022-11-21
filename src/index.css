@@ -230,12 +230,45 @@ body {
   width: 75%;
 }
 
-.resume {
-  width: min-content;
-  margin: auto;
-  margin-top: 4rem;
+.calendly {
+  overflow: -moz-hidden-unscrollable;
 }
 
-.resume-page {
+/* Resume */
+
+.resume {
+  margin: auto;
+  margin-top: 4rem;
+  height: 100%;
   width: 70%;
+}
+
+.resume-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 649;
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(147deg, #0066cc 19%, #c500cc 75%);
+  padding: 10px 30px;
+  border: solid #0066cc 2px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 50px 0px;
+  transition: 1473ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  transition: 1473ms;
+  padding: 10px 53px;
+  transform: translateY(-0px);
+  background: linear-gradient(147deg, #0066cc 19%, #c500cc 75%);
+  color: #00d5ff;
+  border: solid 2px #0066cc;
 }
