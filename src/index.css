@@ -81,7 +81,7 @@ html body {
 /* Tabs */
 
 .tabs {
-  padding-left: 20rem;
+  padding-left: 18rem;
   background-color: #252526;
   height: 3rem;
   display: flex;
@@ -97,7 +97,7 @@ html body {
   background-color: #2d2d2d;
   color: #dadce0;
   display: flex;
-  width: 8rem;
+  width: 9rem;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -117,13 +117,14 @@ html body {
 
 .tab:hover {
   background-color: #1e1e1e;
+  cursor: pointer;
 }
 
 /* Explorer */
 
 .explorer {
   height: 100vh;
-  width: 20rem;
+  width: 18rem;
   background-color: #252526;
 }
 
@@ -138,10 +139,11 @@ html body {
 }
 
 .file {
+  display: flex;
+  align-items: center;
   color: white;
   height: 2rem;
   padding-left: 3rem;
-  padding-top: 0.75rem;
 }
 
 .file.active {
@@ -150,10 +152,11 @@ html body {
 
 .file:hover {
   background-color: #2a2d2e;
+  cursor: pointer;
 }
 
 .logo {
-  width: 2rem;
+  width: 1.5rem;
 }
 
 /* Home */
@@ -227,7 +230,7 @@ html body {
 
 @media only screen and (max-width: 780px) {
   .project-card {
-    width: 20rem;
+    width: 18rem;
   }
 }
 
