@@ -229,3 +229,13 @@ body {
   text-align: center;
   width: 75%;
 }
+
+.resume {
+  width: min-content;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.resume-page {
+  width: 70%;
+}
