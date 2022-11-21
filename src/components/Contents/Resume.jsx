@@ -2,7 +2,7 @@ import React, { useState, useMemo, useCallback } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack5";
 import Measure from "react-measure";
 import throttle from "lodash/throttle";
-import cv from "../../assets/cv.pdf";
+import cv from "../../assets/profile/cv.pdf";
 
 function Resume() {
   const [wrapperWidth, setWrapperWidth] = useState(0);
@@ -19,11 +19,12 @@ function Resume() {
     return true;
   }, [pageHeight, pageWidth, wrapperHeight, wrapperWidth]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const setWrapperDimensions = useCallback(
     throttle((w, h) => {
       setWrapperWidth(w);
       setWrapperHeight(h);
-    }, 1),
+    }, 20),
     []
   );
   return (

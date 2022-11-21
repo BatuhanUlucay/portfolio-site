@@ -6,17 +6,21 @@ function Explorer() {
 
   return (
     <div className="explorer">
-      <p style={{ color: "white", marginLeft: "1.5rem", marginTop: "0" }}>EXPLORER</p>
+      <p style={{ color: "white", marginLeft: "1.5rem", marginTop: "0" }}>
+        EXPLORER
+      </p>
       <h4 style={{ color: "white", marginLeft: "1.5rem" }}>PORTFOLIO</h4>
       <div className="files">
         {tabs.map((tab) => (
-          <div key={tab}
-            className={`file ${currentTab === tab ? "active" : ""}`}
+          <div
+            key={tab.name}
+            className={`file ${currentTab === tab.name ? "active" : ""}`}
             onClick={() => {
-              setCurrentTab(tab);
+              setCurrentTab(tab.name);
             }}
           >
-            {tab}
+            {tab.logo}
+            {tab.name}
           </div>
         ))}
       </div>

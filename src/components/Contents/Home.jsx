@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../../assets/photo.jpeg";
+import photo from "../../assets/profile/photo.jpeg";
 import { TypeAnimation } from "react-type-animation";
 
 function Home() {
@@ -26,7 +26,7 @@ function Home() {
       wrapper="div"
       cursor={true}
       repeat={Infinity}
-      style={{ fontSize: '2em' }}
+      style={{ fontSize: '2rem' }}
     />
           <p style={{ color: "#D4678F" }}>)</p>;
         </div>

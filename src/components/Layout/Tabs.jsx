@@ -8,13 +8,14 @@ function Tabs() {
     <div className="tabs">
       {tabs.map((tab) => (
         <div
-        key={tab}
-          className={`tab ${currentTab === tab ? "active" : ""}`}
+          key={tab.name}
+          className={`tab ${currentTab === tab.name ? "active" : ""}`}
           onClick={() => {
-            setCurrentTab(tab);
+            setCurrentTab(tab.name);
           }}
         >
-          {tab}
+          {tab.logo}
+          {tab.name}
         </div>
       ))}
     </div>

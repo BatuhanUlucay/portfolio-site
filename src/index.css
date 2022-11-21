@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -11,7 +13,6 @@ html {
 html body {
   padding: 0;
   margin: 0;
-  /* overflow-y: inherit; */
   background-color: #1e1e1e;
   font-family: monospace;
 }
@@ -151,6 +152,10 @@ html body {
   background-color: #2a2d2e;
 }
 
+.logo {
+  width: 2rem;
+}
+
 /* Home */
 
 .home {
@@ -200,7 +205,6 @@ html body {
 }
 
 .projects-grid {
-  /* margin-top: 2rem; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
@@ -256,7 +260,6 @@ html body {
 .resume {
   margin: auto;
   margin-top: 4rem;
-  /* height: 100%; */
   width: 70%;
 }
 
